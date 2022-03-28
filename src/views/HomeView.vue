@@ -1,18 +1,20 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <BarraNavegacion color="#FF6A00"/>
+
+  <h2 class="letraNaranja">Bienvenido a la página oficial de Nekoyaki </h2>
+
+  <!--<Carrusel imagen= "anko"/>-->
+  <Carrusel :clase="'inicio'" />
+  <Footer color="#FF6A00"/>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
+import Carrusel from '@/components/Carrusel.vue'
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    Carrusel
   }
 }
 </script>

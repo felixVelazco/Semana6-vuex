@@ -1,0 +1,258 @@
+
+@font-face {
+    font-family: 'japones';
+    src: url('../assets/fonts/NightinTokyo.ttf');
+}
+@font-face {
+    font-family: 'japones';
+    src: url('../assets/fonts/NightinTokyo-Bold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'japones';
+    src: url('../assets/fonts/NightinTokyoShadow.ttf');
+    font-style: italic;
+}
+
+body{
+
+    margin: 0;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+p, ul{
+    display: inline-block;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-justify: auto;
+}
+h1{
+    font-family: japones;
+    font-size:3rem;
+    font-style: italic;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    scroll-margin-top: 3rem;
+}
+h2{
+    font-family: japones;
+    font-size: x-large;
+    text-align: center;
+    color: #26DBF4;
+    scroll-margin-top: 3rem;
+}
+h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: #33A502;
+    scroll-margin-top: 3rem;
+}
+
+form{
+margin: 0% 5%;
+background-color: rgba(0, 0, 0, 0.08);
+}
+
+form h2{
+color: #F4263E;
+}
+
+
+section{
+margin: 0 10%;
+}
+
+
+.negritas{
+font-weight: bold;
+}
+
+#BarraHTML {
+/*background-color: #FF6A00;*/
+padding: 10px;
+position:sticky;
+text-align: center;
+top: -130px;
+width: 100%;
+z-index: 10000;
+}
+
+#BarraHTML ul{
+text-align: center;
+display:flex;
+justify-content: center;
+flex-wrap: wrap;
+list-style-type: none;
+}
+#BarraHTML li{ 
+padding: 0;
+font-family: japones;
+display:inline-block;
+text-align: center;
+margin: 1rem 3rem 1rem 3rem;
+}
+#BarraHTML li a {
+padding: 1px 1px 1px 1px;
+color: white;
+text-decoration: none;
+}
+
+#BarraInferior {
+background-color: #FF6A00;
+padding: 0px;
+position: relative;
+bottom: 0%;        
+
+
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+width: 100%;
+height: 20%;
+z-index: 10000;
+}
+
+#BarraInferior p{
+color: #eee;
+margin: -3rem 0 0 0;
+}    
+
+.letraNaranja{
+color: #FF6A00;
+}
+.letraMorada{
+color:#E7BAF6;
+}
+.letraRoja{
+color: #F4263E;
+}
+.letraVerde{
+color: #33A502;
+}
+.letraAzul{
+color:#26DBF4;
+}
+
+.mapouter{
+
+display: block;
+}    
+
+
+#B_Home a:hover{
+background-color: #FF6A00;
+color: white;
+}
+#B_Que a:hover{
+
+background-color: #E7BAF6;
+color: white;
+}
+#B_Estilos a:hover{
+background-color: #F4263E;
+color: white;
+transform: scale(3);
+}
+#B_Pedido a:hover{
+background-color: #33A502;
+color: white;
+}
+#B_Contacto a:hover{
+background-color: #26DBF4;
+color: white;
+}
+
+#B_Contacto a:hover, #B_Home a:hover, #B_Pedido a:hover, #B_Que a:hover, #B_Estilos a:hover, .carousel p{
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomright: 0px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+border-radius: 5px 5px 5px 5px;
+}
+#logo1{
+position: relative;
+top: 0rem;
+width: auto;
+
+}
+img{
+margin: auto;
+display: block;
+}
+#encabezado img{
+width: 300px;
+} 
+
+.grow { 
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(2);
+}
+
+
+* { box-sizing: border-box; }
+
+
+
+.fotos{
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0% 15%;
+}
+
+
+
+
+.floatingButton{
+  position: sticky;
+  top: 150px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
