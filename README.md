@@ -1,3 +1,4 @@
+[Link de la pagina](https://felixvelazco.github.io/semana6-vuex/)
 # vuex-practica
 
 ## Project setup
